@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css"/>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Aplata</title>
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <div class="header__wrapper">
+        <a class="logo" href="index.html">
+          <img src="images/header/logo.png" alt="">
+        </a>
+        <nav class="navbar">
+          <ul class="menu">
+            <li class="menu__item">
+              <a class="menu__link" href="index.html">Главная</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="scheme.html">Схема работы</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="developers.html">Разработчикам</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="certificates.html">Сертификаты</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link menu__link--active" href="contacts.html">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="phone">
+          <a class="phone__link" href="tel:+72072102">
+            <img class="phone__icon" src="images/header/phone.png" alt="">
+            (843) 207-21-02
+          </a>
+        </div>
+        <div class="menu-toggle">
+          <img src="images/header/menu.svg" alt="">
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- End of Header -->
+  <main class="main-content">
+    <!-- Contacts -->
+    <section id="contacts" class="contacts section">
+      <div class="container">
+        <h3 class="section-title">Контактная информация:</h3>
+        <div class="contacts__wrapper d-flex">
+          <div class="contacts__item d-flex">
+            <div class="contacts__img">
+              <img src="images/icons/pb.png" alt="">
+            </div>
+            <p class="contacts__text">ООО "ПромБудущее"</p>
+          </div>
+          <div class="contacts__item d-flex">
+            <div class="contacts__img">
+              <img src="images/icons/phone.png" alt="">
+            </div>
+            <p class="contacts__text">(843) 207-21-02</p>
+          </div>
+          <div class="contacts__item d-flex">
+            <div class="contacts__img">
+              <img src="images/icons/place.png" alt="">
+            </div>
+            <p class="contacts__text">420034, г.Казань,<br> ул. 2-я Юго-Западная 7, оф.35</p>
+          </div>
+          <div class="contacts__item d-flex">
+            <div class="contacts__img">
+              <img src="images/icons/mail.png" alt="">
+            </div>
+            <ul class="contacts__list">
+              <li class="contacts__list-item">partners@aplata.ru
+                <span class="contacts__list-span">- партнерам</span>
+              </li>
+              <li class="contacts__list-item">sale@aplata.ru
+                <span class="contacts__list-span">- отдел продаж</span>
+              </li>
+              <li class="contacts__list-item">support@aplata.ru
+                <span class="contacts__list-span">- тех. поддержка</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End of Contacts -->
+    <!-- Feedback -->
+    <section class="feedback section">
+      <div class="banner">
+        <div class="container">
+          <div class="banner__wrapper">
+            <h3 class="feedback__title section-title section-title--white">Обратная связь</h3>
+            <div class="feedback__line line"></div>
+            <p class="feedback__description">Пожалуйста, заполните эту форму для обратной связи.<br>
+              С радостью и благодарностью ждем ваших сообщений.
+            </p>
+            <form class="feedback__form">
+              <input class="input form-control" type="text" placeholder="ФИО" required>
+              <input class="input form-control" type="email" placeholder="Электронная почта" required>
+              <input class="input form-control" type="tel" placeholder="Телефон" required>
+              <textarea class="textarea form-control" placeholder="Напишите ваш вопрос или комментарий"
+                required></textarea>
+              <button class="btn" type="submit">Отправить сообщение</button>
+              <p class="feedback__information">
+                Нажимая кнопку «Отправить сообщение» вы принимаете
+                <a data-fancybox href="#popup">«Соглашение об обработке персональных данных»</a>
+              </p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End of Feedback -->
+  </main>
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__wrapper d-flex">
+        <p class="footer__item">ООО "Aplata"</p>
+        <a class="footer__link" href="#">Личный кабинет</a>
+        <a class="footer__link" href="mailto:contact@test.com">
+          <img class="footer__icon" src="images/footer/mail.png" alt="">support@a-plata.ru
+        </a>
+        <p class="footer__item">© A-plata™, 2020</p>
+      </div>
+    </div>
+  </footer>
+  <!-- End of Footer -->
+  <div id="popup" class="popup">
+    <p class="popup__text">
+      Задача организации, в особенности же реализация намеченных плановых заданий
+      в значительной степени обуславливает создание систем массового участия.
+      Повседневная практика показывает, что постоянное информационно-пропагандистское
+      обеспечение нашей деятельности представляет собой интересный эксперимент проверки
+      соответствующий условий активизации. Равным образом консультация с широким активом
+      позволяет оценить значение соответствующий условий активизации. Товарищи! реализация
+      намеченных плановых заданий влечет за собой процесс внедрения и модернизации
+      соответствующий условий активизации. С другой стороны реализация намеченных
+      плановых заданий позволяет оценить значение дальнейших направлений развития.
+    </p>
+    <p class="popup__text">
+      Равным образом реализация намеченных плановых заданий требуют определения и уточнения дальнейших направлений
+      развития. Задача организации, в особенности же консультация с широким активом в значительной степени обуславливает
+      создание соответствующий условий активизации. Разнообразный и богатый опыт новая модель организационной
+      деятельности в значительной степени обуславливает создание направлений прогрессивного развития. С другой стороны
+      укрепление и развитие структуры позволяет выполнять важные задания по разработке форм развития. Не следует, однако
+      забывать, что сложившаяся структура организации требуют от нас анализа позиций, занимаемых участниками в отношении
+      поставленных задач.
+    </p>
+  </div>
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+  <script src="js/main.js"></script>
+  <!-- End of Scripts -->
+</body>
+
+</html>
